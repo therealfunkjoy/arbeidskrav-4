@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Jeg ønsket en annen "penere" font enn Arial 
+Søk: How to add google fonts to react
+Nettsider: https://react.school/adding-google-fonts
+https://www.youtube.com/watch?v=xDcyU1QbkaM&t=190s*/
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+}

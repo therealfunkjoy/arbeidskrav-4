@@ -1,0 +1,19 @@
+:root {
+  --font-size-base: 1.05rem;
+  --font-size-h1: 2rem;
+  --font-size-h2: 1.6rem;
+  --font-size-h3: 1.1rem;
+
+  /* Text color */
+  --heading-text-color: #222;
+  --normal-text-color: #333;
+  --btn-text-color: #fff;
+
+  /* Color */
+  --border-color: #e5e5e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

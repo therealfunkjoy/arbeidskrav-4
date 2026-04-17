@@ -1,0 +1,67 @@
+header {
+    /* Position */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Padding and height */
+    padding: 1rem;
+    height: 70px;
+
+    /* Jeg har en lys gråfarge for å skille header og main */
+    border-bottom: 2px solid var(--border-color);
+}
+
+/* Søk: How to style link elements in react. 
+Jeg brukte denne nettsiden for å finne ut hvordan jeg kan style link elementer: 
+https://stackoverflow.com/questions/70935751/how-to-style-a-react-link-component */
+header h1 a {
+    text-decoration: none;
+
+    font-size: var(--font-size-h1);
+    font-weight: 700;
+    /* Brukt som referanse: https://www.w3schools.com/css/css_text_spacing.asp */
+    letter-spacing: 1px;
+
+    color: var(--heading-text-color);
+}
+
+header ul {
+    /* Position */
+    display: flex;
+    flex-direction: row;
+
+    /* Air */
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+
+    /* Default design */
+    font-size: var(--font-size-base);
+    font-weight: 600;
+
+    letter-spacing: 0.3px;
+    text-decoration: none;
+
+    padding: 1rem;
+
+    color: var(--heading-text-color);
+
+    border-bottom: 1px solid transparent;
+    transition: 0.2s ease;
+}
+
+/* Should i add id or class insted of doing it this way? */
+/* REMEMBER: CHANGE COLOR */
+/* Søk: How to add hover in css 
+Nettsider: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:hover
+https://www.w3schools.com/cssref/sel_hover.php*/
+header ul li a:hover {
+    border-bottom: 1px solid #000;
+}
