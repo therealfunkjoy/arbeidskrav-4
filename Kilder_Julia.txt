@@ -1,0 +1,34 @@
+HEADER:
+Style React Link
+Brukt for å finne ut hvordan style Link i react.
+Stack Overflow. (22, 1.Februar) How to style a react Link component?. https://stackoverflow.com/questions/70935751/how-to-style-a-react-link-component
+
+Letter spacing
+Brukt som referanse for hvordan jeg kan endre mellomrommet mellom bokstaver.
+W3Schools. (u.å.) CSS Text Spacing. https://www.w3schools.com/css/css_text_spacing.asp
+
+Hover-effekter
+Brukt for referanse/hjelp til hvordan jeg la til hover på elementer i css.
+Mozilla Developer Network. (u.å.) :hover. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:hover
+W3Schools. (u.å.) CSS :hover Pseudo-class. https://www.w3schools.com/cssref/sel_hover.php
+W3Schools. (u.å.) How TO - Transition on Hover. https://www.w3schools.com/howto/howto_css_transition_hover.asp
+
+Navigasjon med href
+Brukt for å finne ut hvordan hoppe mellom seksjoner på samme siden.
+Mozilla Developer Network. (u.å.) <a>: The Anchor element. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a#skip_links
+
+Inline/block
+Brukt for å sette padding på li-elementene.
+W3Schools. (u.å.) CSS display: inline-block. https://www.w3schools.com/css/css_inline-block.asp
+Mozilla Developer Network. (u.å.) Block and inline layout in normal flow. https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_and_inline_layout
+
+CSS:
+Google Fonts i React
+Brukt for å finne ut hvordan jeg importerer google fonts i react
+React School. (u.å.) Adding Google Fonts. https://react.school/adding-google-fonts
+Code Invasion. (16.Januar 2025) How to Add Google Fonts to React App[Video]. YouTube. https://www.youtube.com/watch?v=xDcyU1QbkaM&t=190s
+
+Gruppemedelems komponent:
+
+Tidligere kode og LMS-materiale:
+Jeg har også brukt kode fra tidligere timer og Webtricks LMS: https://lms.webtricks.blog/kurs/uin 

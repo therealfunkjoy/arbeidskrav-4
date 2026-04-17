@@ -4,23 +4,21 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    /* Padding and height */
+    /* Setter høyde og luft på header */
     padding: 1rem;
     height: 70px;
 
-    /* Jeg har en lys gråfarge for å skille header og main */
+    /* Jeg har en lys gråfarge for å visuelt skille header fra main */
     border-bottom: 2px solid var(--border-color);
 }
 
-/* Søk: How to style link elements in react. 
-Jeg brukte denne nettsiden for å finne ut hvordan jeg kan style link elementer: 
-https://stackoverflow.com/questions/70935751/how-to-style-a-react-link-component */
 header h1 a {
     text-decoration: none;
 
     font-size: var(--font-size-h1);
     font-weight: 700;
-    /* Brukt som referanse: https://www.w3schools.com/css/css_text_spacing.asp */
+    /* Jeg endrer mellomrommet mellom bokstavene vet hjelp av letter spacing. 
+    Kilde i dokumentet: Kilder_Julia.txt */
     letter-spacing: 1px;
 
     color: var(--heading-text-color);
@@ -31,7 +29,8 @@ header ul {
     display: flex;
     flex-direction: row;
 
-    /* Air */
+    /* Air: Fjerner margin og padding. 
+    Bruker gap for mellomromm mellom elementene i listen*/
     margin: 0;
     padding: 0;
     gap: 1rem;
@@ -42,7 +41,6 @@ header ul {
 header ul li a {
     display: inline-block;
 
-    /* Default design */
     font-size: var(--font-size-base);
     font-weight: 600;
 
@@ -53,15 +51,16 @@ header ul li a {
 
     color: var(--heading-text-color);
 
+    /* Legger på en usynelig linje under elementene +
+    Legger til transaksjon jeg ønsker 
+    Kilde i dokumentet: Kilder_Julia.txt*/
     border-bottom: 1px solid transparent;
     transition: 0.2s ease;
 }
 
-/* Should i add id or class insted of doing it this way? */
-/* REMEMBER: CHANGE COLOR */
-/* Søk: How to add hover in css 
-Nettsider: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:hover
-https://www.w3schools.com/cssref/sel_hover.php*/
+/* Jeg har en hover funksjon når man hovrer over linkene i navigasjonen til header 
+Kilde i dokumentet: Kilder_Julia.txt*/
+/* REMEMBER: ENDRE BORDER-BOTTOM FARGE */
 header ul li a:hover {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--border-color);
 }
