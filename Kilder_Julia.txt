@@ -50,5 +50,14 @@ Brukt for å vite hvordan få bilde til å se best ut.
 Mozilla Developer Network. (u.å.) object-fit. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit#try_it
 
 
+Annet:
+Problemer med oppdateringer i nettleser
+Jeg hadde problemer med at oppdateringer jeg gjorde i css filen min ikke ville oppdatere seg i nettleseren.
+Jeg spurte ChatGPT om hjelp:
+OpenAI. (2026) ChatGPT. [Stor språkmodell]. https://chatgpt.com/share/69e31b32-a4bc-832a-8dbc-55da54a96fa9
+Jeg la først til en console log i komponentet for å sjekke om det kom opp. Det gjorde det.
+Deretter prøvde jeg å legge på en bakgrunnsfarge på et element i css filen, det funket ikke. 
+Jeg endre opp med å lukke vs-code, importere css filen på nytt i komponentet og kjøre det opp på nytt. 
+
 Tidligere kode og LMS-materiale:
 Jeg har også brukt kode fra tidligere timer og Webtricks LMS: https://lms.webtricks.blog/kurs/uin 
