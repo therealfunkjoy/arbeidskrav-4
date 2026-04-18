@@ -1,0 +1,67 @@
+.member-section-julia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 2rem;
+
+    /* Hvor stor burde profilkortet være? */
+    width: 600px;
+
+    border: var(--border-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#avatar-img-julia {
+    /* Kilde for "Style avatar-bildet" i dokumentet: Kilder_Julia.txt */
+    object-fit: cover;
+
+    width: 250px;
+    height: 250px;
+
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+}
+
+#member-container-julia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 1rem;
+    padding: 1rem;
+
+    font-size: var(--font-size-base)
+}
+
+#member-container-julia h3 {
+    color: var(--heading-text-color);
+    font-weight: 700;
+    letter-spacing: 0.4px;
+
+    padding: 0.5rem;
+}
+
+#member-container-julia p {
+    color: var(--normal-text-color);
+    letter-spacing: 0.4px;
+    font-weight: 500;
+
+    padding: 0.5rem;
+}
+
+#member-container-julia p a {
+    padding: 0.5rem;
+
+    color: var(--normal-text-color);
+    text-decoration: underline;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+#member-container-julia p a:hover {
+    background-color: #c9c9c9;
+    padding: 0.5rem;
+    border-radius: 6px;
+}

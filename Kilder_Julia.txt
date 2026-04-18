@@ -36,5 +36,19 @@ Hjelp fra ChatGPT til navn valg
 Jeg brukte ChatGPT for å få hjelp til hva jeg skulle navngi profil-komponentet jeg skulle lage.
 OpenAI. (2026) ChatGPT. [Stor språkmodell]. https://chatgpt.com/share/69e308fc-8670-8329-9ecc-4c21da0b1383
 
+Legge til bilde i HTML
+Brukt som referanse/oppslagg på hvordan jeg legger til bilde i html.
+W3Schools. (u.å.) HTML Images. https://www.w3schools.com/html/html_images.asp
+
+Legge til mail link
+Brukt for å finne ut hvordan jeg legger til mail-Link i html.
+Stack Overflow. (2014, 30.Mars) Email Tag in HTML?. https://stackoverflow.com/questions/22738843/email-tag-in-html 
+W3Schools. (u.å.) mailto. https://www.w3schools.com/TAGs/tryit.asp?filename=tryhtml_link_mailto
+
+Style avatar-bildet
+Brukt for å vite hvordan få bilde til å se best ut.
+Mozilla Developer Network. (u.å.) object-fit. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit#try_it
+
+
 Tidligere kode og LMS-materiale:
 Jeg har også brukt kode fra tidligere timer og Webtricks LMS: https://lms.webtricks.blog/kurs/uin 
