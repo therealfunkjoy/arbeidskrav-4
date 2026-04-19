@@ -1,10 +1,12 @@
 import './App.css'
-import GruppekomponentLars from './components/GruppekomponentLars'
+import MemberLars from './components/MemberLars'
+import Arbeidskrav from './components/Arbeidskrav'
 
 function App() {
   return (
     <main>
-      <GruppekomponentLars />
+      <MemberLars />
+      <Arbeidskrav />
     </main>
   )
 }

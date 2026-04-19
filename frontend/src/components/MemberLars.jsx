@@ -1,4 +1,4 @@
-import '../style/gruppekomponentLars.css'
+import '../style/MemberLars.css'
 import larsAvatar from '../assets/larsavatar.webp'
 
 export default function GruppekomponentLars() {
