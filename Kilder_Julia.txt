@@ -25,7 +25,6 @@ Brukt for å sette padding på li-elementene.
 W3Schools. (u.å.) CSS display: inline-block. https://www.w3schools.com/css/css_inline-block.asp
 Mozilla Developer Network. (u.å.) Block and inline layout in normal flow. https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_and_inline_layout
 
-CSS:
 Google Fonts i React
 Brukt for å finne ut hvordan jeg importerer google fonts i react.
 React School. (u.å.) Adding Google Fonts. https://react.school/adding-google-fonts
@@ -49,6 +48,10 @@ Style avatar-bildet
 Brukt for å vite hvordan få bilde til å se best ut.
 Mozilla Developer Network. (u.å.) object-fit. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit#try_it
 
+Gradientbakgrunn til profilkortet
+Brukt for å lage gradientbakgrunn til profilkortet.
+uiGradients. (u.å.) #Roseanna. https://uigradients.com/#Roseanna
+CSS Gradient. (u.å.) https://cssgradient.io/
 
 Annet:
 Problemer med oppdateringer i nettleser

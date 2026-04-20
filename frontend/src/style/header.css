@@ -54,13 +54,12 @@ header ul li a {
     /* Legger på en usynelig linje under elementene +
     Legger til transaksjon jeg ønsker 
     Kilde i dokumentet: Kilder_Julia.txt*/
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
     transition: 0.2s ease;
 }
 
 /* Jeg har en hover funksjon når man hovrer over linkene i navigasjonen til header 
 Kilde i dokumentet: Kilder_Julia.txt*/
-/* REMEMBER: ENDRE BORDER-BOTTOM FARGE */
 header ul li a:hover {
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 2px solid #595959;
 }

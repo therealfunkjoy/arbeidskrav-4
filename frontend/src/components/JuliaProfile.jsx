@@ -18,14 +18,14 @@ export default function JuliaProfile() {
             {/* Kilde for "Legge til bilde i html" i dokumentet: Kilder_Julia.txt */}
             <img src={MemberAvatar} id='avatar-img-julia' alt="Avatar image of Julia" />
 
-            <section id='member-container-julia'>
+            <section className='member-container-julia'>
                 <h3>Julia Pauline Telle</h3>
 
                 <h4>Email:</h4>
                 {/* Kilde for "Legge til mail link" i dokumentet: Kilder_Julia.txt */}
                 <p><a href='mailto:juliapt@hiof.no'>juliapt@hiof.no</a></p>
                 <h4>Studie:</h4>
-                <p>Årsstudium i informasjonsteknologi</p>
+                <p id='study-txt'>Årsstudium i informasjonsteknologi</p>
             </section>
 
         </section>
