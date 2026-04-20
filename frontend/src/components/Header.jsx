@@ -1,11 +1,13 @@
 
-import '../Style/header.css'
+import '../style/header.css'
 
 export default function Header() {
     return (
         <header>
-            {/* Logoen er pakket inn i et Link-komponent slik at man kan trykke på Logoen for å navigere til toppen av siden */}
-            <h1><Link to="/">Gruppe 22</Link></h1>
+            {/* Byttet ut Link med a-element siden navigasjonen kun skjer på en side. 
+            Link kan brukes senere dersom vi utvider nettsiden med flere sider.
+            Jeg beholder kilen for "hvordan style et Link element med css", siden det var min tidligere løsning. Kilde i dokumentet: Kilder_Julia.txt*/}
+            <h1><a href="#header">Gruppe 22</a></h1>
 
             <nav>
                 <ul>

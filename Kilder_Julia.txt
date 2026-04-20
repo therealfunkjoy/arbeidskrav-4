@@ -1,3 +1,6 @@
+REMEMBER: Les gjennom
+
+
 HEADER:
 Style React Link
 Brukt for å finne ut hvordan style Link i react.
@@ -22,13 +25,42 @@ Brukt for å sette padding på li-elementene.
 W3Schools. (u.å.) CSS display: inline-block. https://www.w3schools.com/css/css_inline-block.asp
 Mozilla Developer Network. (u.å.) Block and inline layout in normal flow. https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_and_inline_layout
 
-CSS:
 Google Fonts i React
-Brukt for å finne ut hvordan jeg importerer google fonts i react
+Brukt for å finne ut hvordan jeg importerer google fonts i react.
 React School. (u.å.) Adding Google Fonts. https://react.school/adding-google-fonts
 Code Invasion. (16.Januar 2025) How to Add Google Fonts to React App[Video]. YouTube. https://www.youtube.com/watch?v=xDcyU1QbkaM&t=190s
 
 Gruppemedelems komponent:
+Hjelp fra ChatGPT til navn valg
+Jeg brukte ChatGPT for å få hjelp til hva jeg skulle navngi profil-komponentet jeg skulle lage.
+OpenAI. (2026) ChatGPT. [Stor språkmodell]. https://chatgpt.com/share/69e308fc-8670-8329-9ecc-4c21da0b1383
+
+Legge til bilde i HTML
+Brukt som referanse/oppslagg på hvordan jeg legger til bilde i html.
+W3Schools. (u.å.) HTML Images. https://www.w3schools.com/html/html_images.asp
+
+Legge til mail link
+Brukt for å finne ut hvordan jeg legger til mail-Link i html.
+Stack Overflow. (2014, 30.Mars) Email Tag in HTML?. https://stackoverflow.com/questions/22738843/email-tag-in-html 
+W3Schools. (u.å.) mailto. https://www.w3schools.com/TAGs/tryit.asp?filename=tryhtml_link_mailto
+
+Style avatar-bildet
+Brukt for å vite hvordan få bilde til å se best ut.
+Mozilla Developer Network. (u.å.) object-fit. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit#try_it
+
+Gradientbakgrunn til profilkortet
+Brukt for å lage gradientbakgrunn til profilkortet.
+uiGradients. (u.å.) #Roseanna. https://uigradients.com/#Roseanna
+CSS Gradient. (u.å.) https://cssgradient.io/
+
+Annet:
+Problemer med oppdateringer i nettleser
+Jeg hadde problemer med at oppdateringer jeg gjorde i css filen min ikke ville oppdatere seg i nettleseren.
+Jeg spurte ChatGPT om hjelp:
+OpenAI. (2026) ChatGPT. [Stor språkmodell]. https://chatgpt.com/share/69e31b32-a4bc-832a-8dbc-55da54a96fa9
+Jeg la først til en console log i komponentet for å sjekke om det kom opp. Det gjorde det.
+Deretter prøvde jeg å legge på en bakgrunnsfarge på et element i css filen, det funket ikke. 
+Jeg endre opp med å lukke vs-code, importere css filen på nytt i komponentet og kjøre det opp på nytt. 
 
 Tidligere kode og LMS-materiale:
 Jeg har også brukt kode fra tidligere timer og Webtricks LMS: https://lms.webtricks.blog/kurs/uin 

@@ -5,3 +5,12 @@ Kilde i dokumentet: Kilder_Julia.txt*/
 body {
   font-family: 'Inter', Arial, sans-serif;
 }
+
+/* Lagt på enkel css for at elementene ikke skal være klistret opp i hjørnet */
+/* REMEMBER: burde endres på */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
