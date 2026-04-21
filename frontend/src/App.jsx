@@ -1,16 +1,18 @@
 import './App.css'
-import Header from './Components/Header'
+import Header from './components/Header'
 import JuliaProfile from './components/JuliaProfile.jsx'
+import MemberLars from './components/MemberLars'
+import Arbeidskrav from './components/Arbeidskrav'
 
+// Hovedkomponenten for applikasjonen
 function App() {
-
   return (
-    // Lagt til komponentene på forsiden slik at jeg kan se det mens jeg jobber
-    // REMEMBER: burde endres på senere
     <section>
       <Header />
       <main>
         <JuliaProfile />
+        <MemberLars />
+        <Arbeidskrav />
       </main>
     </section>
   )
