@@ -4,9 +4,10 @@
   margin: 2rem;
 
   border: 1px solid var(--border-color);
+  border: 1px solid #d6e8ff;
   border-radius: 10px;
 
-  background-color: #f5f5f5;
+  background-color: #eef6ff;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 
   text-align: center;
