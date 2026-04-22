@@ -14,7 +14,7 @@ export default function Header() {
                     <li>
                         {/* a-element brukes for å kunne navigere til en spesefikk seksjon på samme siden. Jeg bruker en ankerlenke (#id). 
                         Kilde i dokumentet: Kilder_Julia.txt*/}
-                        <a href="#member-one">Gruppemedelemmer</a>
+                        <a href="#member">Gruppemedelemmer</a>
                     </li>
                     <li>
                         <a href="#work-requirements">Arbeidskrav</a>

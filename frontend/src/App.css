@@ -14,3 +14,10 @@ main {
   gap: 2rem;
   padding: 2rem;
 }
+
+/* REMEMBER: Endre */
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

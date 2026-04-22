@@ -10,8 +10,12 @@ function App() {
     <section>
       <Header />
       <main>
-        <JuliaProfile />
-        <MemberLars />
+
+        <section className='profile-section' id="#member">
+          <JuliaProfile />
+          <MemberLars />
+        </section>
+
         <Arbeidskrav />
       </main>
     </section>

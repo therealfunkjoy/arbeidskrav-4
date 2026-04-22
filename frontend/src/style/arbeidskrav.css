@@ -5,9 +5,10 @@
 }
 
 #work-requirements h2 {
-  font-size: 2rem;
+  font-size: var(--font-size-h2);
+  color: var(--heading-text-color);
   margin-bottom: 1.5rem;
-  text-align: center;
+
 }
 
 .work-card {
@@ -20,11 +21,12 @@
 }
 
 .work-card h3 {
-  font-size: 1.2rem;
+  color: var(--heading-text-color);
+  font-size: var(--font-size-base);
   margin-bottom: 0.5rem;
 }
 
 .work-card p {
   line-height: 1.5;
-  color: #333;
+  color: var(--normal-text-color);
 }
