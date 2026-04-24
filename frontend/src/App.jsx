@@ -11,13 +11,15 @@ function App() {
       <Header />
       <main>
 
-        <section className='profile-section' id="#member">
+        <section id="#member">
           <JuliaProfile />
           <MemberLars />
         </section>
 
         <Arbeidskrav />
       </main>
+
+      <footer>Utvikling av interaktive nettsteder 2026</footer>
     </section>
   )
 }

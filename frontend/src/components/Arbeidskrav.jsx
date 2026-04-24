@@ -30,15 +30,18 @@ export default function Arbeidskrav() {
     <section id="work-requirements"> {/* Seksjon for arbeidskrav */}
       <h2>Arbeidskrav</h2> {/* Overskrift for seksjonen */}
 
-      {/* map brukes for å vise alle arbeidskrav som egne kort */}
-      {sanityArbeidskrav?.map((krav) => (
-        <article className="work-card" key={krav._id}> {/* Hver arbeidskrav vises i et eget article element med en unik key */}
-          <h3>
-            {krav.title} {/* Viser tittelen på arbeidskravet */}
-          </h3>
-          <p>{krav.description}</p> {/* Viser beskrivelsen av arbeidskravet */}
-        </article>
-      ))}
+      <section className='work-cards-section'>
+        {/* map brukes for å vise alle arbeidskrav som egne kort */}
+        {sanityArbeidskrav?.map((krav) => (
+          <article className="work-card" key={krav._id}> {/* Hver arbeidskrav vises i et eget article element med en unik key */}
+            <h3>
+              {krav.title} {/* Viser tittelen på arbeidskravet */}
+            </h3>
+            <p>{krav.description}</p> {/* Viser beskrivelsen av arbeidskravet */}
+          </article>
+        ))}
+      </section>
+
     </section>
   )
 }
